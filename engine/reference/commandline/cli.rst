@@ -208,7 +208,7 @@ Notary
 
 .. Single character command line options can be combined, so rather than typing docker run -i -t --name test busybox sh, you can write docker run -it --name test busybox sh.
 
-１文字のコマンドラインのオプションは、連結できます。 ``docker run -i -t --name test busybox sh`` は、 ``docker run -it -name test busybox sh`` に書き換えられます。
+１文字のコマンドラインのオプションは、連結できます。 ``docker run -i -t --name test busybox sh`` は、 ``docker run -it --name test busybox sh`` に書き換えられます。
 
 .. Boolean
 
